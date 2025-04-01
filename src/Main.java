@@ -4,12 +4,11 @@ import java.util.Calendar;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        AdvancedCalculator c = new AdvancedCalculator(5);
+        Calculator c = new Calculator(5);
         c.Adunare(3);
         c.scadere(5);
-        c.inmultire(4);
-        c.impartire(5);
-        c.radical(4);
-        System.out.println(c.getRezultat());
+        c.inmultire(6);
+        c.impartire(4);
+        c.getRezultat();
     }
 }

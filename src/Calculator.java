@@ -8,30 +8,34 @@ public class Calculator {
         this.rezultat = rezultat;
     }
 
-    public void Adunare(int numar) {
+    public Calculator Adunare(int numar) {
         rezultat += numar;
-
+        return this;
     }
 
-    public void scadere(int numar) {
+    public Calculator scadere(int numar) {
 
         rezultat -= numar;
+        return this;
 
     }
 
-    public void inmultire(int numar) {
+    public Calculator inmultire(int numar) {
 
         rezultat *= numar;
+        return this;
 
     }
 
-    public void impartire(int numar) {
+    public Calculator impartire(int numar) {
 
         rezultat /= numar;
+        return this;
 
     }
 
-    public double getRezultat() {
-        return rezultat;
+    public Calculator getRezultat() {
+        System.out.println(rezultat);
+        return this;
     }
 }
