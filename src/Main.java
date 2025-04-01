@@ -4,11 +4,7 @@ import java.util.Calendar;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Calculator c = new Calculator(5);
-        c.Adunare(3);
-        c.scadere(5);
-        c.inmultire(6);
-        c.impartire(4);
-        c.getRezultat();
+        System.out.println(new Calculator().adunare(7).scadere(2).inmultire(5).getRezultat());
+
     }
 }

@@ -8,7 +8,7 @@ public class Calculator {
         this.rezultat = rezultat;
     }
 
-    public Calculator Adunare(int numar) {
+    public Calculator adunare(int numar) {
         rezultat += numar;
         return this;
     }
